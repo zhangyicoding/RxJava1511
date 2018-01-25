@@ -1,4 +1,4 @@
-package net.bwie.rxjava;
+package net.bwie.rxjava.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
+import net.bwie.rxjava.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -25,3 +25,9 @@ create：创建一个数据处理的回调方法。onNext -> 成功处理数据�
 map：数据变换
 concatMap、flatMap：拆分数据：拆分数组/集合
 区别：concatMap一定有序拆分数据，flatMap可能顺序不对
+
+
+Retrofit + RxJava的使用
+Retrofit负责获取网络数据、自动解析JSON数据
+RxJava的Observable替换Retrofit的Call
+RxJava负责线程跳转、数据变化

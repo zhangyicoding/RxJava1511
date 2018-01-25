@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.bwie.rxjava.RetrofitRxJavaActivity">
+    tools:context="net.bwie.rxjava.activity.RetrofitRxJavaActivity">
 
 </android.support.constraint.ConstraintLayout>
