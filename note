@@ -17,3 +17,11 @@ RxJava注重数据产生的过程，在数据的加工过程中使用操作符�
 消费者（客户），最终拿到产品并使用的人
 
 高通骁龙835CPU -> 手机 -> 包装 -> 交给消费者使用
+
+操作符
+just：设置数据源
+create：创建一个数据处理的回调方法。onNext -> 成功处理数据。onError -> 处理数据失败 onComplete -> 成功与否都执行
+
+map：数据变换
+concatMap、flatMap：拆分数据：拆分数组/集合
+区别：concatMap一定有序拆分数据，flatMap可能顺序不对
